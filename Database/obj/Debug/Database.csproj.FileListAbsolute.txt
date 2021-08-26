@@ -1,0 +1,12 @@
+D:\ProjetosC#\TorneSeUmProgramador\MVC_GerenciadorDeConteudo\Database\bin\Debug\Database.dll
+D:\ProjetosC#\TorneSeUmProgramador\MVC_GerenciadorDeConteudo\Database\bin\Debug\Database.pdb
+D:\ProjetosC#\TorneSeUmProgramador\MVC_GerenciadorDeConteudo\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\TorneSeUmProgramador\MVC_GerenciadorDeConteudo\Database\obj\Debug\Database.dll
+D:\ProjetosC#\TorneSeUmProgramador\MVC_GerenciadorDeConteudo\Database\obj\Debug\Database.pdb
+D:\ProjetosC#\TorneSeUmProgramador\MVC_GerenciadorDeConteudo\Database\obj\Debug\Database.csprojAssemblyReference.cache
+D:\ProjetosC#\TorneSeUmProgramador\GerenciadorDeConteudoMVC\Database\bin\Debug\Database.dll
+D:\ProjetosC#\TorneSeUmProgramador\GerenciadorDeConteudoMVC\Database\bin\Debug\Database.pdb
+D:\ProjetosC#\TorneSeUmProgramador\GerenciadorDeConteudoMVC\Database\obj\Debug\Database.csproj.AssemblyReference.cache
+D:\ProjetosC#\TorneSeUmProgramador\GerenciadorDeConteudoMVC\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\TorneSeUmProgramador\GerenciadorDeConteudoMVC\Database\obj\Debug\Database.dll
+D:\ProjetosC#\TorneSeUmProgramador\GerenciadorDeConteudoMVC\Database\obj\Debug\Database.pdb
