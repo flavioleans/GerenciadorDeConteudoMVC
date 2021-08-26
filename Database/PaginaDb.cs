@@ -37,22 +37,22 @@ namespace Database
         {
             using (SqlConnection connection = new SqlConnection(sqlConn()))
             {
-                //string queryString = "insert into paginas (nome, data, conteudo) values " +
-                //    "('" + nome + "','" + data.ToString("yyyy-MM-dd HH:mm:ss") + "', '" + conteudo + "');";
+                string queryString = "insert into paginas (nome, data, conteudo) values " +
+                    "('" + nome + "','" + data.ToString("yyyy-MM-dd HH:mm:ss") + "', '" + conteudo + "');";
 
-                //if (id != 0)
-                //{
-                //    queryString = "update paginas set nome = '" + nome + "', data='" + data.ToString("yyyy-MM-dd HH:mm:ss") +
-                //        "', conteudo='" + conteudo + "' where id=" + id;
-                    
-                //}
+                if (id != 0)
+                {
+                    queryString = "update paginas set nome = '" + nome + "', data='" + data.ToString("yyyy-MM-dd HH:mm:ss") +
+                        "', conteudo='" + conteudo + "' where id=" + id;
 
-                string queryString = @"merge [cms].[dbo].[paginas] as b
-                                    using ( select "+id+" as id, '" + nome+"' Nome ,'"+ conteudo + "' Conteudo ,'"+ data + @"' data ) as a on a.id=b.id
-                                    when matched then 
-                                    update set b.conteudo=a.Conteudo, nome =a.nome
-                                    when not matched then 
-                                    insert values(a.Nome,a.Conteudo,A.data);";
+                }
+
+                //string queryString = @"merge [cms].[dbo].[paginas] as b
+                //                    using ( select "+id+" as id, '" + nome+"' Nome ,'"+ conteudo + "' Conteudo ,'"+ data + @"' data ) as a on a.id=b.id
+                //                    when matched then 
+                //                    update set b.conteudo=a.Conteudo, nome =a.nome
+                //                    when not matched then 
+                //                    insert values(a.Nome,a.Conteudo,A.data);";
 
 
                 SqlCommand command = new SqlCommand(queryString, connection);
